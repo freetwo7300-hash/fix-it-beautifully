@@ -19,7 +19,7 @@ export function ChatWidget() {
     if (!message.trim()) return;
 
     // Add user message
-    const userMessage = {
+    const userMessage: Message = {
       id: messages.length + 1,
       text: message,
       sender: "user",
@@ -28,7 +28,7 @@ export function ChatWidget() {
 
     // Simulate bot response
     setTimeout(() => {
-      const botMessage = {
+      const botMessage: Message = {
         id: messages.length + 2,
         text: t.chat.botResponse,
         sender: "bot",
