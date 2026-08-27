@@ -57,12 +57,29 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "rose-gold": "var(--rose-gold)",
+        champagne: "var(--champagne)",
+        ivory: "var(--ivory)",
+        burgundy: "var(--burgundy)",
+        surface: "var(--surface)",
+        "surface-2": "var(--surface-2)",
+        "deep-bg": "var(--deep-bg)",
+      },
+      fontFamily: {
+        display: ["Cormorant Garamond", "serif"],
+        sans: ["Inter", "sans-serif"],
+      },
+      backdropBlur: {
+        xs: "2px",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "4xl": "2rem",
+        "5xl": "3rem",
       },
+
       keyframes: {
         "accordion-down": {
           from: {
